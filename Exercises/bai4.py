@@ -1,0 +1,5 @@
+a= int(input("Nhap vao so thu 1:"))
+b= int(input("Nhap vao so thu 1:"))
+print("cách 1: %d+%d=%d"%(a,b,a+b))
+print("cách 2: {}+{}={}".format(a,b,a+b))
+print("cách 3: {1}+{2}={0}".format(a+b,a,b))

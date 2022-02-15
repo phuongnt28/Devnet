@@ -1,0 +1,5 @@
+print("Câu 4B")
+a,b= input("Nhap vao 2 so:").split(",")
+a=int(a)
+b=int(b)
+print("Tổng: %d+%d=%d"%(a,b,a+b))
